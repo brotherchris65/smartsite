@@ -1,11 +1,16 @@
 p  {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2em;
+    text-indent: 1em;
 }
 
 h1{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2em;
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
 p.important {
     font-size: 1.5em;
@@ -13,12 +18,18 @@ p.important {
 }
 h3.bigger {
     font-size: 2.5em;
+    
 }
 .typewriter {
     font-family: 'Courier New', Courier, monospace;
 }
 p.standout {
     font-style: italic;
+    border: 5px double brown;
+}
+p.pretty {
+    text-align: justify;
+    
 }
 
 h4.standout {
@@ -31,4 +42,13 @@ h4.standout {
     color: #cc0000;
     font-weight: bold;
     font-style: italic;
+}
+.date-style {
+    text-align: right;
+}
+blockquote {
+    color: darkgreen;
+    line-height: 1.5em;
+    margin: 0 10em 0 4em;
+    
 }
